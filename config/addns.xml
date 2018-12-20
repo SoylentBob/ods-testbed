@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Adapter>
+  <DNS>
+    <Inbound>
+      <RequestTransfer>
+        <Remote>
+          <Address>127.0.0.1</Address>
+          <Port>8053</Port>
+        </Remote>
+      </RequestTransfer>
+    </Inbound>
+    <Outbound>
+      <ProvideTransfer>
+        <Peer>
+					<Prefix>127.0.0.1</Prefix>
+				</Peer>
+      </ProvideTransfer>
+    </Outbound>
+  </DNS>
+</Adapter>
